@@ -1,0 +1,38 @@
+{
+  "root": [
+    {
+      "dir_name": "src",
+      "files": ["index.html", "main.js","style.css"],
+      "content": [
+        {
+          "dir_name": "componets",
+          "files": [],
+          "content": [
+            {
+              "dir_name":"home", 
+              "files":["home.ts", "home.css", "home.html"],
+              "content":[]
+            },
+            {
+              "dir_name":"contact", 
+              "files":["contact.ts", "contact.css", "contact.html"],
+              "content":[]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "dir_name": "test",
+      "files": ["test.css", "test.html", "test.ts"],
+      "content": [
+        {
+          "dir_name": "Configuration",
+          "files": ["me.conf"],
+          "content": []
+        }
+      ]
+    }
+  ]
+}
+
