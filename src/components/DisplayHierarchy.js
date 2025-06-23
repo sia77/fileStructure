@@ -19,7 +19,7 @@ export const DisplayHierarchy = (container, root) => {
 };
 
 
-function createNode(label, index) {
+export function createNode(label, index) {
   const li = document.createElement('li');
   li.textContent = label;
   li.className = `dir_${index} createNode chevron-list open`;
@@ -27,7 +27,7 @@ function createNode(label, index) {
   return li;
 }
 
-function createSubContainer(parentLi) {
+export function createSubContainer(parentLi) {
   const ul = document.createElement('ul');
   ul.className = 'createSubContainer';
   parentLi.appendChild(ul);
