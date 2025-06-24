@@ -34,18 +34,17 @@ export function createSubContainer(parentLi) {
   return ul;
 }
 
-function listFiles(files) {
+export function listFiles(files) {
     const ul = document.createElement('ul');
-    //ul.className = "chevron-list";
 
-  files.forEach(item => {
-    const li = document.createElement('li');
-    li.textContent = item;
-    li.className = 'createTree remove-list-style';
-    ul.appendChild(li);
-  });
+    files.forEach(item => {
+        const li = document.createElement('li');
+        li.textContent = item;
+        li.className = 'createTree remove-list-style';
+        ul.appendChild(li);
+    });
 
-  return ul;
+    return ul;
 }
 
 

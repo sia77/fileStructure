@@ -1,5 +1,4 @@
 import App from './App';
-import './counter';
 import './style.css';
 
 
