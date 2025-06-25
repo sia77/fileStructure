@@ -105,9 +105,6 @@ describe("DisplayHierarchy()", () => {
         expect(picFileList[0].textContent).toBe('photo.jpg');
 
 
-
-
-
     })
 
 });

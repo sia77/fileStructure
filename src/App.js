@@ -11,15 +11,10 @@ const App = () =>{
 
     ul.addEventListener('click', function (event) {
         const { target } = event;
-        console.log('Container clicked: ', target.id );
-        //const child = target.firstElementChild;
-
-        console.log("el: ", target.parentElement);
 
         if( target.id ){
             target.classList.toggle("open");
             target.classList.toggle("hide-children");
-
         }
         
     });
